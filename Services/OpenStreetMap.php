@@ -16,7 +16,6 @@
 /**
  * Pull in HTTP_Request2
  */
-require_once 'HTTP/Request2.php';
 spl_autoload_register(['Services_OpenStreetMap', 'autoload']);
 
 /**
